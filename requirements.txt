@@ -3,3 +3,6 @@ beautifulsoup4>=4.12.2
 lxml>=4.9.4
 loguru>=0.7.2
 pyinstaller>=6.3.0
+tqdm>=4.66.2
+colorama>=0.4.6
+requests-html>=0.10.0
