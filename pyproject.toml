@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proxy_auto_switcher"
+version = "1.0.0"
+authors = [
+  { name="ChihiroKagami", email="316418018@qq.com" }
+]
+description = "跨平台代理自动切换工具（学分项目）"
+long_description = file: "README.md"
+long_description_content_type = "text/markdown"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+  "requests>=2.31.0",
+  "beautifulsoup4>=4.12.2",
+  "lxml>=4.9.4",
+  "loguru>=0.7.2",
+  "pyinstaller>=6.3.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4.0",
+  "black>=23.10.0"
+]

@@ -1,0 +1,9 @@
+{
+  "target_url": "http://hjc.sdedu.net/?by=history&from=kkframene",
+  "timeout": 15,
+  "max_retry": 10,
+  "proxy_sources": [
+    "https://www.zdaye.com/free/",
+    "https://www.kuaidaili.com/free/"
+  ]
+}
